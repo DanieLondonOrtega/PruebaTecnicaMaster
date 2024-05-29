@@ -1,4 +1,5 @@
 //Ejercicio 1
+
 const username = 'google';
 const url = `https://api.github.com/search/repositories?q=user:${username}&sort=stars&order=desc&per_page=10&page=1`;
 
@@ -13,6 +14,7 @@ fetch(url)
     .catch(error => console.error('Error fetching data:', error));
 
 //Ejercicio 2
+
 function f(x, y, z) {
     let sum = x + y;
     let multi = sum * z;
@@ -21,6 +23,7 @@ function f(x, y, z) {
 }
 
 //Ejercicio 3
+
 function algoritmo(numero){
     console.log('Ejercicio 3');
     let array = [];
